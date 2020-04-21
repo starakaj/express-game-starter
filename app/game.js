@@ -35,6 +35,7 @@ module.exports = class Game {
     draw(p, cellWidth, cellHeight) {
         p.push();
         p.strokeWeight(0);
+        p.colorMode(p.HSB);
         p.fill(this._player.color);
         p.rect(
             this._player.x * cellWidth,
