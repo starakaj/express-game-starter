@@ -1,7 +1,7 @@
-Starter Express App on Glitch
+Express Game Starter
 ===========================
 
-This app is a very small scaffold to get you started using Express and Webpack.
+This app is a very small scaffold to get started making a multiplayer game using p5, express and websockets.
 
 It's been copied by @starakaj for your enjoyment, and then React has been removed You can find the original at https://glitch.com/~starter-react.
 
