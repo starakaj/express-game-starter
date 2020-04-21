@@ -2,6 +2,8 @@ module.exports = class Game {
     constructor(columns, rows) {
         this._columns = columns;
         this._rows = rows;
+
+        // Position the player in the center of the board
         this._player = this._makePlayer(
             Math.floor(this._columns / 2),
             Math.floor(this._rows / 2),
